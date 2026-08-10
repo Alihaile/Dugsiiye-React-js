@@ -1,0 +1,121 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4eafc;
+    margin: 0;
+    padding: 20px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.todoApp .header h1 {
+    margin: 0;
+    background-color:#f6cfff;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+.todoApp .header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:#fff;
+    color: #b005d2;
+    width: 100%;
+    padding: 16px 20px;
+
+}
+
+.todoForm input[type="text"]:focus-visible {
+    outline: 1px solid #9300ea;
+}
+
+.todoForm input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1em;
+    /* outline: 2px solid #9300ea; */
+}
+
+.todoList .remove {
+    border-radius: 5px;
+    border: none;
+    color: #e60101;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.todoForm button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #9300ea;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.todoForm {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.todoList {
+    /* margin-top: 20px; */
+    width: 100%;
+}
+
+.todoList ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todoList ul li {
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    color: #606060;
+}
+
+.todoApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.todoCard h1 {
+    font-size: 1.5em;
+    margin-top: 0;
+    color: #5d555e;
+
+}
+
+.todoCard {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    margin-bottom: 5px;
+}
