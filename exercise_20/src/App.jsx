@@ -2,7 +2,7 @@ import TodoApp from './TodoApp';
 
 function App() {
 
-  document.title = 'Exercise 19';
+  document.title = 'Exercise 20';
 
 
   return (
